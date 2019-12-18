@@ -8,7 +8,5 @@ def countdown(counter)
 end
 
 def countdown_with_sleep(x)
-  until x==5
-    true
-  end
+  sleep x
 end
